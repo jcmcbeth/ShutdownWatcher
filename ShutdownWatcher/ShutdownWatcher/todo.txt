@@ -1,0 +1,8 @@
+﻿Detect when application is killed/closed without stopping
+Save screen images
+	- either
+		- save them all at an interval
+		- save them in a rolling fashion where it gets deleted after a period of time unless
+		  a shutdown/power event is detected or the process is killed
+Improve file logging
+	- want to limit the files by size so they aren't too large to open
